@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rsdigitalsupport-ship-it.github.io/sitemap.xml
