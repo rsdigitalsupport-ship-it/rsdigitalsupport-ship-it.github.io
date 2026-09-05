@@ -1,0 +1,2219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>RS Digital Solutions | Professional Digital Services</title>
+
+    <meta name="description"
+          content="RS Digital Solutions provides professional Book & eBook Formatting, PPT Design, Graphic Designing, Typing, Website Development, Translation, Data Entry, Logo Design, Photo Editing, CorelDRAW and Freelance Services.">
+
+    <style>
+
+        /* =========================================================
+           GLOBAL
+        ========================================================= */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #14213d;
+            background: #f5f8fc;
+            line-height: 1.6;
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1400px;
+            margin: auto;
+        }
+
+        /* =========================================================
+           HEADER
+        ========================================================= */
+
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: #ffffff;
+            border-bottom: 1px solid #e5eaf1;
+            box-shadow: 0 3px 18px rgba(12, 35, 70, 0.07);
+        }
+
+        .navbar {
+            min-height: 90px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 30px;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            flex-shrink: 0;
+        }
+
+        .brand img {
+            width: 72px;
+            height: 72px;
+            object-fit: contain;
+        }
+
+        .brand-name {
+            font-size: 30px;
+            font-weight: 800;
+            color: #075fc4;
+            white-space: nowrap;
+        }
+
+        .brand-name span {
+            color: #ff7417;
+        }
+
+        .nav-menu {
+            display: flex;
+            align-items: center;
+            gap: 34px;
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        .nav-menu a {
+            transition: 0.25s ease;
+        }
+
+        .nav-menu a:hover {
+            color: #075fc4;
+        }
+
+        .nav-whatsapp {
+            background: #075fc4;
+            color: white !important;
+            padding: 14px 25px;
+            border-radius: 12px;
+        }
+
+        .nav-whatsapp:hover {
+            background: #ff7417;
+            color: white !important;
+        }
+
+        /* =========================================================
+           HERO
+        ========================================================= */
+
+        .hero {
+            min-height: 690px;
+            background:
+                radial-gradient(circle at 85% 20%, #e3f0ff 0%, transparent 38%),
+                linear-gradient(135deg, #ffffff 0%, #f3f8ff 100%);
+            display: flex;
+            align-items: center;
+            padding: 75px 0;
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1.08fr 0.92fr;
+            align-items: center;
+            gap: 70px;
+        }
+
+        .hero-label {
+            display: inline-block;
+            background: #e6f1ff;
+            color: #075fc4;
+            padding: 10px 23px;
+            border-radius: 40px;
+            font-weight: 800;
+            font-size: 17px;
+            letter-spacing: 0.5px;
+            margin-bottom: 28px;
+        }
+
+        .hero h1 {
+            font-size: clamp(48px, 5vw, 78px);
+            line-height: 1.04;
+            margin-bottom: 28px;
+            color: #17223b;
+        }
+
+        .hero h1 .blue {
+            color: #075fc4;
+        }
+
+        .hero h1 .orange {
+            color: #ff7417;
+        }
+
+        .hero-text {
+            max-width: 760px;
+            color: #5c7596;
+            font-size: 20px;
+            margin-bottom: 28px;
+        }
+
+        .hero-points {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            margin-bottom: 35px;
+            font-weight: 700;
+        }
+
+        .hero-points span::before {
+            content: "✓";
+            color: #ff7417;
+            font-weight: 900;
+            margin-right: 8px;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 18px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 16px 30px;
+            border-radius: 12px;
+            font-size: 18px;
+            font-weight: 800;
+            transition: 0.25s ease;
+        }
+
+        .btn-blue {
+            background: #075fc4;
+            color: white;
+            box-shadow: 0 12px 25px rgba(7, 95, 196, 0.20);
+        }
+
+        .btn-blue:hover {
+            transform: translateY(-3px);
+            background: #064fa5;
+        }
+
+        .btn-orange {
+            background: #ff7417;
+            color: white;
+            box-shadow: 0 12px 25px rgba(255, 116, 23, 0.20);
+        }
+
+        .btn-orange:hover {
+            transform: translateY(-3px);
+            background: #e9630b;
+        }
+
+        /* HERO IMAGE
+           No forced white background around image.
+        */
+
+        .hero-visual {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero-image-box {
+        width: 100%;
+        max-width: 420px;
+        background: transparent;
+        border: none;
+        border-radius: 20px;
+        padding: 0;
+        margin: 0 auto;
+        box-shadow: none;
+        overflow: hidden;
+    }
+
+        .hero-image-box img {
+        width: 100%;
+        max-width: 420px;
+        height: auto;
+        max-height: 280px;
+        display: block;
+        margin: 0 auto;
+        object-fit: contain;
+        object-position: center;
+    }
+
+        /* =========================================================
+           SECTION COMMON
+        ========================================================= */
+
+        section {
+            padding: 95px 0;
+        }
+
+        .section-heading {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-tag {
+            color: #ff7417;
+            font-weight: 900;
+            font-size: 17px;
+            letter-spacing: 1.5px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .section-heading h2 {
+            font-size: clamp(38px, 4vw, 58px);
+            color: #17223b;
+            margin-bottom: 16px;
+        }
+
+        .section-heading p {
+            max-width: 900px;
+            margin: auto;
+            color: #5f7898;
+            font-size: 19px;
+        }
+
+        /* =========================================================
+           SERVICES
+        ========================================================= */
+
+        #services {
+            background: #f5f8fc;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .service-card {
+            background: #ffffff;
+            border: 1px solid #dce5f0;
+            border-radius: 22px;
+            overflow: hidden;
+            box-shadow: 0 12px 35px rgba(12, 35, 70, 0.06);
+            transition: 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .service-card:hover {
+            transform: translateY(-7px);
+            box-shadow: 0 20px 45px rgba(12, 35, 70, 0.13);
+        }
+
+        .service-image {
+            width: 100%;
+            height: 220px;
+            background: #f4f7fb;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px;
+            box-sizing: border-box;
+        }
+
+        .service-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            object-position: center;
+        }
+
+        .service-content {
+            padding: 30px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .service-number {
+            color: #ff7417;
+            font-size: 16px;
+            font-weight: 900;
+            letter-spacing: 1.5px;
+            margin-bottom: 12px;
+        }
+
+        .service-content h3 {
+            font-size: 28px;
+            line-height: 1.3;
+            margin-bottom: 18px;
+            color: #12284a;
+        }
+
+        .service-content p {
+            color: #637b99;
+            font-size: 17px;
+            margin-bottom: 25px;
+        }
+
+        .quote-link {
+            margin-top: auto;
+            color: #075fc4;
+            font-weight: 900;
+            font-size: 17px;
+        }
+
+        .quote-link:hover {
+            color: #ff7417;
+        }
+
+        /* =========================================================
+           ABOUT
+        ========================================================= */
+
+        #about {
+            background: #ffffff;
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: 0.9fr 1.1fr;
+            gap: 80px;
+            align-items: center;
+        }
+
+        .about-image-box {
+            background: #f6f9fd;
+            border: 1px solid #dce6f2;
+            border-radius: 28px;
+            min-height: 470px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 45px;
+        }
+
+        .about-image-box img {
+            width: 360px;
+            height: 360px;
+            object-fit: contain;
+            border-radius: 20px;
+        }
+
+        .about-content .section-tag {
+            text-align: left;
+        }
+
+        .about-content h2 {
+            font-size: clamp(40px, 4vw, 60px);
+            line-height: 1.1;
+            margin-bottom: 25px;
+        }
+
+        .about-content p {
+            color: #5f7898;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .about-points {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .about-point {
+            background: #f6f9fd;
+            border: 1px solid #dce6f2;
+            border-radius: 13px;
+            padding: 18px;
+            font-weight: 800;
+        }
+
+        .about-point::before {
+            content: "✓";
+            color: #ff7417;
+            margin-right: 10px;
+        }
+
+        /* =========================================================
+           WHY US
+        ========================================================= */
+
+        #why-us {
+            background: #071d3a;
+            color: white;
+        }
+
+        #why-us .section-heading h2 {
+            color: white;
+        }
+
+        #why-us .section-heading p {
+            color: #bfd0e6;
+        }
+
+        .why-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 22px;
+        }
+
+        .why-card {
+            min-height: 190px;
+            background: #102947;
+            border: 1px solid #294462;
+            border-radius: 20px;
+            padding: 35px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            transition: 0.3s ease;
+        }
+
+        .why-card:hover {
+            transform: translateY(-5px);
+            border-color: #ff7417;
+        }
+
+        .why-icon {
+            font-size: 43px;
+            margin-bottom: 18px;
+        }
+
+        .why-card h3 {
+            font-size: 18px;
+        }
+
+        .relationship {
+            width: fit-content;
+            margin: 55px auto 0;
+            background: #ff7417;
+            padding: 17px 38px;
+            border-radius: 40px;
+            font-size: 19px;
+            font-weight: 900;
+        }
+
+        /* =========================================================
+           CTA
+        ========================================================= */
+
+        .cta {
+            background: linear-gradient(135deg, #075fc4, #0878dd);
+            color: white;
+            text-align: center;
+        }
+
+        .cta h2 {
+            font-size: clamp(38px, 4vw, 60px);
+            margin-bottom: 20px;
+        }
+
+        .cta p {
+            font-size: 20px;
+            margin-bottom: 32px;
+        }
+
+        .cta .btn {
+            background: white;
+            color: #075fc4;
+        }
+
+        .cta .btn:hover {
+            background: #ff7417;
+            color: white;
+        }
+
+        /* =========================================================
+           CONTACT
+        ========================================================= */
+
+        #contact {
+            background: #f5f8fc;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        .contact-card {
+            background: white;
+            border: 1px solid #dce5f0;
+            border-radius: 22px;
+            padding: 42px;
+            box-shadow: 0 10px 30px rgba(12, 35, 70, 0.05);
+        }
+
+        .contact-card h3 {
+            font-size: 32px;
+            margin-bottom: 28px;
+            color: #12284a;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 18px;
+            margin-bottom: 28px;
+        }
+
+        .contact-icon {
+            width: 55px;
+            height: 55px;
+            border-radius: 14px;
+            background: #eaf3ff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 25px;
+            flex-shrink: 0;
+        }
+
+        .contact-label {
+            color: #7186a1;
+            margin-bottom: 4px;
+        }
+
+        .contact-value {
+            color: #075fc4;
+            font-size: 19px;
+            font-weight: 900;
+        }
+
+        .contact-description {
+            color: #5f7898;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        /* =========================================================
+           FOOTER
+        ========================================================= */
+
+        footer {
+            background: #030f20;
+            color: #cbd8e8;
+            padding: 55px 0 30px;
+            text-align: center;
+        }
+
+        .footer-brand {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 18px;
+        }
+
+        .footer-brand img {
+            width: 58px;
+            height: 58px;
+            object-fit: contain;
+        }
+
+        .footer-brand-name {
+            font-size: 25px;
+            font-weight: 900;
+            color: white;
+        }
+
+        .footer-brand-name span {
+            color: #ff7417;
+        }
+
+        .footer-tagline {
+            margin-bottom: 15px;
+        }
+
+        .copyright {
+            font-size: 15px;
+        }
+
+        /* =========================================================
+           FLOATING WHATSAPP
+        ========================================================= */
+
+        .floating-whatsapp {
+            position: fixed;
+            right: 28px;
+            bottom: 28px;
+            width: 62px;
+            height: 62px;
+            border-radius: 50%;
+            background: #25d366;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 31px;
+            font-weight: bold;
+            z-index: 9999;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.20);
+            transition: 0.25s ease;
+        }
+
+        .floating-whatsapp:hover {
+            transform: scale(1.08);
+        }
+
+        /* =========================================================
+           MOBILE MENU
+        ========================================================= */
+
+        .menu-toggle {
+            display: none;
+            font-size: 30px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: #14213d;
+        }
+
+        /* =========================================================
+           RESPONSIVE
+        ========================================================= */
+
+        @media (max-width: 1100px) {
+
+            .nav-menu {
+                gap: 18px;
+                font-size: 16px;
+            }
+
+            .hero-grid {
+                gap: 40px;
+            }
+
+            .services-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .why-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width: 800px) {
+
+            .navbar {
+                min-height: 75px;
+            }
+
+            .brand img {
+                width: 55px;
+                height: 55px;
+            }
+
+            .brand-name {
+                font-size: 21px;
+            }
+
+            .menu-toggle {
+                display: block;
+            }
+
+            .nav-menu {
+                display: none;
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 75px;
+                background: white;
+                padding: 25px;
+                flex-direction: column;
+                align-items: stretch;
+                box-shadow: 0 15px 25px rgba(0,0,0,0.10);
+            }
+
+            .nav-menu.active {
+                display: flex;
+            }
+
+            .nav-menu a {
+                padding: 10px;
+                text-align: center;
+            }
+
+            .hero {
+                padding: 55px 0;
+            }
+
+            .hero-grid {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .hero-points {
+                justify-content: center;
+            }
+
+            .hero-buttons {
+                justify-content: center;
+            }
+
+            .hero-image-box img {
+                height: 380px;
+            }
+
+            .about-grid {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .about-content .section-tag {
+                text-align: center;
+            }
+
+            .about-content {
+                text-align: center;
+            }
+
+            .about-points {
+                text-align: left;
+            }
+
+            .why-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 560px) {
+
+            .container {
+                width: 92%;
+            }
+
+            section {
+                padding: 65px 0;
+            }
+
+            .brand {
+                gap: 8px;
+            }
+
+            .brand img {
+                width: 48px;
+                height: 48px;
+            }
+
+            .brand-name {
+                font-size: 18px;
+            }
+
+            .hero h1 {
+                font-size: 44px;
+            }
+
+            .hero-text {
+                font-size: 17px;
+            }
+
+            .hero-image-box img {
+                height: 300px;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .service-image {
+                height: 200px;
+            }
+
+            .service-content h3 {
+                font-size: 25px;
+            }
+
+            .about-image-box {
+                min-height: 330px;
+                padding: 25px;
+            }
+
+            .about-image-box img {
+                width: 270px;
+                height: 270px;
+            }
+
+            .about-points {
+                grid-template-columns: 1fr;
+            }
+
+            .why-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .relationship {
+                text-align: center;
+                font-size: 16px;
+                padding: 15px 20px;
+            }
+
+            .contact-card {
+                padding: 28px 22px;
+            }
+
+            .contact-card h3 {
+                font-size: 27px;
+            }
+
+            .floating-whatsapp {
+                width: 56px;
+                height: 56px;
+                right: 18px;
+                bottom: 18px;
+            }
+        }
+
+    
+    /* Final logo size adjustment */
+    @media (max-width: 768px) {
+        .hero-image-box {
+            max-width: 300px;
+        }
+
+        .hero-image-box img {
+            max-width: 300px;
+            max-height: 210px;
+        }
+    }
+
+
+    /* Hero Image Slider */
+    .hero-image-box.hero-slider {
+        max-width: 420px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .hero-slider-track {
+        position: relative;
+        width: 100%;
+        height: 280px;
+        overflow: hidden;
+        border-radius: 18px;
+        background: transparent;
+    }
+
+    .hero-slider-track img.hero-slide {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        object-fit: contain;
+        object-position: center;
+        opacity: 0;
+        transition: opacity 0.7s ease-in-out;
+        display: block;
+    }
+
+    .hero-slider-track img.hero-slide.active {
+        opacity: 1;
+    }
+
+    .hero-slider-dots {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+        margin-top: 10px;
+    }
+
+    .hero-slider-dots span {
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background: #cbd5e1;
+        transition: all 0.3s ease;
+    }
+
+    .hero-slider-dots span.active {
+        width: 18px;
+        border-radius: 8px;
+        background: #2563eb;
+    }
+
+    @media (max-width: 768px) {
+        .hero-image-box.hero-slider {
+            max-width: 300px;
+        }
+
+        .hero-slider-track {
+            height: 210px;
+        }
+    }
+
+
+    /* WhatsApp Query Form */
+    .whatsapp-query-section {
+        padding: 70px 20px;
+        background: #f7fafc;
+    }
+
+    .whatsapp-query-container {
+        max-width: 850px;
+        margin: 0 auto;
+    }
+
+    .whatsapp-query-card {
+        background: #ffffff;
+        border-radius: 18px;
+        padding: 35px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+        border: 1px solid #e7edf4;
+    }
+
+    .whatsapp-query-card h2 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .whatsapp-query-card .query-subtitle {
+        text-align: center;
+        margin-bottom: 28px;
+        color: #64748b;
+    }
+
+    .query-form-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 18px;
+    }
+
+    .query-form-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .query-form-group.full-width {
+        grid-column: 1 / -1;
+    }
+
+    .query-form-group label {
+        margin-bottom: 7px;
+        font-weight: 600;
+        color: #1e293b;
+    }
+
+    .query-form-group input,
+    .query-form-group select,
+    .query-form-group textarea {
+        width: 100%;
+        padding: 13px 14px;
+        border: 1px solid #d5dee9;
+        border-radius: 9px;
+        font-size: 15px;
+        font-family: inherit;
+        box-sizing: border-box;
+        outline: none;
+    }
+
+    .query-form-group textarea {
+        min-height: 125px;
+        resize: vertical;
+    }
+
+    .whatsapp-query-btn {
+        width: 100%;
+        margin-top: 22px;
+        padding: 14px 20px;
+        border: none;
+        border-radius: 9px;
+        background: #25D366;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+        .query-form-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .query-form-group.full-width {
+            grid-column: auto;
+        }
+
+        .whatsapp-query-card {
+            padding: 24px 18px;
+        }
+    }
+
+</style>
+</head>
+
+<body>
+
+<!-- =========================================================
+     HEADER
+========================================================= -->
+
+<header>
+
+    <div class="container navbar">
+
+        <a href="#home" class="brand">
+
+            <img src="./All%20image/logo.png"
+                 alt="RS Digital Solutions Logo">
+
+            <div class="brand-name">
+                RS <span>Digital Solutions</span>
+            </div>
+
+        </a>
+
+        <button class="menu-toggle"
+                onclick="toggleMenu()"
+                aria-label="Open Menu">
+            ☰
+        </button>
+
+        <nav class="nav-menu" id="navMenu">
+
+            <a href="#home">Home</a>
+
+            <a href="#about">About</a>
+
+            <a href="#services">Services</a>
+
+            <a href="#why-us">Why Us</a>
+
+            <a href="#contact">Contact</a>
+
+            <a class="nav-whatsapp"
+               href="https://wa.me/917082382736"
+               target="_blank">
+                WhatsApp
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<!-- =========================================================
+     HERO
+========================================================= -->
+
+<main id="home">
+
+<section class="hero">
+
+    <div class="container hero-grid">
+
+        <div class="hero-content">
+
+            <div class="hero-label">
+                PROFESSIONAL DIGITAL SERVICES
+            </div>
+
+            <h1>
+                Let's Bring Your
+                <br>
+                <span class="blue">Ideas</span>
+                <span class="orange"> To Life.</span>
+            </h1>
+
+            <p class="hero-text">
+                RS Digital Solutions provides professional, reliable
+                and affordable digital services for businesses,
+                students, educators and individuals.
+            </p>
+
+            <div class="hero-points">
+
+                <span>Professional</span>
+
+                <span>Reliable</span>
+
+                <span>Affordable</span>
+
+                <span>On-Time Delivery</span>
+
+            </div>
+
+            <div class="hero-buttons">
+
+                <a href="#services"
+                   class="btn btn-blue">
+                    Explore Services
+                </a>
+
+                <a href="https://wa.me/917082382736"
+                   target="_blank"
+                   class="btn btn-orange">
+                    WhatsApp Us
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-visual">
+
+            <div class="hero-image-box hero-slider">
+    <div class="hero-slider-track">
+        <img class="hero-slide active" src="./All%20image/logo.png" alt="RS Digital Solutions Logo">
+        <img class="hero-slide" src="./All%20image/website.png" alt="Website Development">
+        <img class="hero-slide" src="./All%20image/data-entry.png" alt="Data Entry">
+        <img class="hero-slide" src="./All%20image/graphic-design.png" alt="Graphic Designing">
+        <img class="hero-slide" src="./All%20image/photo-editing.png" alt="Photo Editing">
+        <img class="hero-slide" src="./All%20image/ppt-design.png" alt="PPT Design">
+        <img class="hero-slide" src="./All%20image/typing-hindi-english.png" alt="Hindi English Typing">
+        <img class="hero-slide" src="./All%20image/math-typing.png" alt="Math Typing">
+        <img class="hero-slide" src="./All%20image/book-ebook.png" alt="Book and eBook Formatting">
+        <img class="hero-slide" src="./All%20image/freelance.png" alt="Freelance Work">
+    </div>
+    <div class="hero-slider-dots" aria-hidden="true">
+        <span class="active"></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span>
+    </div>
+</div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     SERVICES
+========================================================= -->
+
+<section id="services">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div class="section-tag">
+                WHAT WE DO
+            </div>
+
+            <h2>
+                Our Professional Services
+            </h2>
+
+            <p>
+                From document work to digital solutions,
+                we provide a wide range of professional
+                services under one roof.
+            </p>
+
+        </div>
+
+
+        <div class="services-grid">
+
+
+            <!-- SERVICE 01 -->
+
+            <article class="service-card">
+
+                <div class="service-image">
+
+                    <img loading="lazy" decoding="async" src="./All%20image/book-ebook.png"
+                         alt="Book and eBook Formatting">
+
+                </div>
+
+                <div class="service-content">
+
+                    <div class="service-number">
+                        SERVICE 01
+                    </div>
+
+                    <h3>
+                        Book &amp; eBook Formatting
+                    </h3>
+
+                    <p>
+                        eBook, book, Kindle, academic,
+                        question bank formatting,
+                        typesetting and PDF conversion.
+                    </p>
+
+                    <a href="#contact"
+                       class="quote-link">
+                        Get a Quote →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- SERVICE 02 -->
+
+            <article class="service-card">
+
+                <div class="service-image">
+
+                    <img loading="lazy" decoding="async" src="./All%20image/ppt-design.png"
+                         alt="PPT Making and Presentation Design">
+
+                </div>
+
+                <div class="service-content">
+
+                    <div class="service-number">
+                        SERVICE 02
+                    </div>
+
+                    <h3>
+                        PPT Making &amp; Presentation Design
+                    </h3>
+
+                    <p>
+                        Professional, educational, MCQ,
+                        teaching, animated and corporate
+                        PowerPoint presentations.
+                    </p>
+
+                    <a href="#contact"
+                       class="quote-link">
+                        Get a Quote →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- SERVICE 03 -->
+
+            <article class="service-card">
+
+                <div class="service-image">
+
+                    <img loading="lazy" decoding="async" src="./All%20image/graphic-design.png"
+                         alt="Graphic Designing">
+
+                </div>
+
+                <div class="service-content">
+
+                    <div class="service-number">
+                        SERVICE 03
+                    </div>
+
+                    <h3>
+                        Graphic Designing
+                    </h3>
+
+                    <p>
+                        Logo, banner, poster, social media,
+                        brochure, pamphlet, flyer, visiting
+                        card, CorelDRAW and Photoshop work.
+                    </p>
+
+                    <a href="#contact"
+                       class="quote-link">
+                        Get a Quote →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- SERVICE 04 -->
+
+            <article class="service-card">
+
+                <div class="service-image">
+
+                    <img loading="lazy" decoding="async" src="./All%20image/typing-hindi-english.png"
+                         alt="Hindi and English Typing">
+
+                </div>
+
+                <div class="service-content">
+
+                    <div class="service-number">
+                        SERVICE 04
+                    </div>
+
+                    <h3>
+                        Typing (Hindi / English)
+                    </h3>
+
+                    <p>
+                        Hindi typing, English typing,
+                        document typing and professional
+                        document formatting work.
+                    </p>
+
+                    <a href="#contact"
+                       class="quote-link">
+                        Get a Quote →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- SERVICE 05 -->
+
+            <article class="service-card">
+
+                <div class="service-image">
+
+                    <img loading="lazy" decoding="async" src="./All%20image/math-typing.png"
+                         alt="Math Typing">
+
+                </div>
+
+                <div class="service-content">
+
+                    <div class="service-number">
+                        SERVICE 05
+                    </div>
+
+                    <h3>
+                        Math Typing (Word / PPT)
+                    </h3>
+
+                    <p>
+                        Mathematical equations, formulas,
+                        question papers, Word and PPT based
+                        maths typing work.
+                    </p>
+
+                    <a href="#contact"
+                       class="quote-link">
+                        Get a Quote →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- SERVICE 06 -->
+
+            <article class="service-card">
+
+                <div class="service-image">
+
+                    <img loading="lazy" decoding="async" src="./All%20image/website.png"
+                         alt="Website Development">
+
+                </div>
+
+                <div class="service-content">
+
+                    <div class="service-number">
+                        SERVICE 06
+                    </div>
+
+                    <h3>
+                        Website Development
+                    </h3>
+
+                    <p>
+                        Business websites, portfolio websites,
+                        responsive web pages and basic website
+                        development solutions.
+                    </p>
+
+                    <a href="#contact"
+                       class="quote-link">
+                        Get a Quote →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- SERVICE 07 -->
+
+            <article class="service-card">
+
+                <div class="service-image">
+
+                    <img loading="lazy" decoding="async" src="./All%20image/graphic-design.png"
+                         alt="Hindi English Translation"
+                         onerror="this.src='All image/graphic-design.png'">
+
+                </div>
+
+                <div class="service-content">
+
+                    <div class="service-number">
+                        SERVICE 07
+                    </div>
+
+                    <h3>
+                        Translation (Hindi / English)
+                    </h3>
+
+                    <p>
+                        Hindi to English and English to Hindi
+                        translation for documents, content
+                        and professional work.
+                    </p>
+
+                    <a href="#contact"
+                       class="quote-link">
+                        Get a Quote →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- SERVICE 08 -->
+
+            <article class="service-card">
+
+                <div class="service-image">
+
+                    <img loading="lazy" decoding="async" src="./All%20image/data-entry.png"
+                         alt="Data Entry Excel Work">
+
+                </div>
+
+                <div class="service-content">
+
+                    <div class="service-number">
+                        SERVICE 08
+                    </div>
+
+                    <h3>
+                        Data Entry (Excel Work)
+                    </h3>
+
+                    <p>
+                        Excel data entry, spreadsheet work,
+                        document conversion, formatting and
+                        professional data management.
+                    </p>
+
+                    <a href="#contact"
+                       class="quote-link">
+                        Get a Quote →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- SERVICE 09 -->
+
+            <article class="service-card">
+
+                <div class="service-image">
+
+                    <img src="./All%20image/logo.png"
+                         alt="Logo Design">
+
+                </div>
+
+                <div class="service-content">
+
+                    <div class="service-number">
+                        SERVICE 09
+                    </div>
+
+                    <h3>
+                        Logo Design
+                    </h3>
+
+                    <p>
+                        Professional logo concepts and
+                        branding designs for businesses,
+                        organizations and personal brands.
+                    </p>
+
+                    <a href="#contact"
+                       class="quote-link">
+                        Get a Quote →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- SERVICE 10 -->
+
+            <article class="service-card">
+
+                <div class="service-image">
+
+                    <img loading="lazy" decoding="async" src="./All%20image/photo-editing.png"
+                         alt="Photo Editing and Image Work">
+
+                </div>
+
+                <div class="service-content">
+
+                    <div class="service-number">
+                        SERVICE 10
+                    </div>
+
+                    <h3>
+                        Photo Editing &amp; Image Work
+                    </h3>
+
+                    <p>
+                        Professional photo editing, image
+                        correction, creative editing and
+                        digital image work.
+                    </p>
+
+                    <a href="#contact"
+                       class="quote-link">
+                        Get a Quote →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- SERVICE 11 -->
+
+            <article class="service-card">
+
+                <div class="service-image">
+
+                    <img loading="lazy" decoding="async" src="./All%20image/graphic-design.png"
+                         alt="CorelDRAW Work"
+                         onerror="this.src='All image/graphic-design.png'">
+
+                </div>
+
+                <div class="service-content">
+
+                    <div class="service-number">
+                        SERVICE 11
+                    </div>
+
+                    <h3>
+                        CorelDRAW Work
+                    </h3>
+
+                    <p>
+                        Professional CorelDRAW based graphic
+                        design, layouts, print designs and
+                        creative artwork.
+                    </p>
+
+                    <a href="#contact"
+                       class="quote-link">
+                        Get a Quote →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- SERVICE 12 -->
+
+            <article class="service-card">
+
+                <div class="service-image">
+
+                    <img loading="lazy" decoding="async" src="./All%20image/freelance.png"
+                         alt="All Types of Freelance Work">
+
+                </div>
+
+                <div class="service-content">
+
+                    <div class="service-number">
+                        SERVICE 12
+                    </div>
+
+                    <h3>
+                        All Types of Freelance Work
+                    </h3>
+
+                    <p>
+                        Have a unique requirement?
+                        Discuss your project and get a
+                        customized digital solution.
+                    </p>
+
+                    <a href="#contact"
+                       class="quote-link">
+                        Get a Quote →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     ABOUT
+========================================================= -->
+
+<section id="about">
+
+    <div class="container about-grid">
+
+        <div class="about-image-box">
+
+            <img src="./All%20image/logo.png"
+                 alt="RS Digital Solutions Logo">
+
+        </div>
+
+
+        <div class="about-content">
+
+            <div class="section-tag">
+                ABOUT RS DIGITAL SOLUTIONS
+            </div>
+
+            <h2>
+                Your Vision.
+                Our Digital Solution.
+            </h2>
+
+            <p>
+                RS Digital Solutions is a professional
+                digital service provider focused on
+                delivering quality, reliable and affordable
+                solutions.
+            </p>
+
+            <p>
+                We work on digital projects ranging from
+                document formatting and typing to graphic
+                designing, presentations, websites,
+                data entry and freelance projects.
+            </p>
+
+            <div class="about-points">
+
+                <div class="about-point">
+                    Professional Work
+                </div>
+
+                <div class="about-point">
+                    Quality Focused
+                </div>
+
+                <div class="about-point">
+                    Reliable Service
+                </div>
+
+                <div class="about-point">
+                    Customer Satisfaction
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     WHY CHOOSE US
+========================================================= -->
+
+<section id="why-us">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div class="section-tag">
+                WHY CHOOSE US
+            </div>
+
+            <h2>
+                Your Growth Is Our Priority
+            </h2>
+
+            <p>
+                We believe in building long-term
+                relationships through quality work
+                and dependable service.
+            </p>
+
+        </div>
+
+
+        <div class="why-grid">
+
+            <div class="why-card">
+
+                <div class="why-icon">
+                    ✓
+                </div>
+
+                <h3>
+                    Quality Work
+                </h3>
+
+            </div>
+
+
+            <div class="why-card">
+
+                <div class="why-icon">
+                    ⏱
+                </div>
+
+                <h3>
+                    On-Time Delivery
+                </h3>
+
+            </div>
+
+
+            <div class="why-card">
+
+                <div class="why-icon">
+                    🤝
+                </div>
+
+                <h3>
+                    Client Satisfaction
+                </h3>
+
+            </div>
+
+
+            <div class="why-card">
+
+                <div class="why-icon">
+                    👥
+                </div>
+
+                <h3>
+                    Long-Term Support
+                </h3>
+
+            </div>
+
+
+            <div class="why-card">
+
+                <div class="why-icon">
+                    ★
+                </div>
+
+                <h3>
+                    Affordable &amp; Reliable
+                </h3>
+
+            </div>
+
+        </div>
+
+
+        <div class="relationship">
+            ONE ORDER, LIFETIME RELATIONSHIP!
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     CTA
+========================================================= -->
+
+<section class="cta">
+
+    <div class="container">
+
+        <h2>
+            Ready To Bring Your Ideas To Life?
+        </h2>
+
+        <p>
+            Tell us about your requirement and let's
+            work together to make your project professional.
+        </p>
+
+        <a href="#contact"
+           class="btn">
+            Get In Touch
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     CONTACT
+========================================================= -->
+
+<!-- =========================================================
+     WHATSAPP QUERY
+========================================================= -->
+<section class="whatsapp-query-section" id="query">
+    <div class="whatsapp-query-container">
+        <div class="whatsapp-query-card">
+            <h2>Send Your Query</h2>
+            <p class="query-subtitle">Apni requirement bhejiye, hum WhatsApp par aapse contact karenge.</p>
+
+            <form id="whatsappQueryForm">
+                <div class="query-form-grid">
+                    <div class="query-form-group">
+                        <label for="queryName">Name *</label>
+                        <input type="text" id="queryName" required placeholder="Enter your name">
+                    </div>
+
+                    <div class="query-form-group">
+                        <label for="queryMobile">Mobile Number *</label>
+                        <input type="tel" id="queryMobile" required placeholder="Enter mobile number">
+                    </div>
+
+                    <div class="query-form-group">
+                        <label for="queryService">Service Required *</label>
+                        <select id="queryService" required>
+                            <option value="">Select a service</option>
+                            <option>Book & eBook Formatting</option>
+                            <option>PPT Making & Presentation Design</option>
+                            <option>Graphic Designing</option>
+                            <option>Typing (Hindi / English)</option>
+                            <option>Math Typing (Word / PPT)</option>
+                            <option>Website Development</option>
+                            <option>Translation (Hindi / English)</option>
+                            <option>Data Entry (Excel Work)</option>
+                            <option>Logo Design</option>
+                            <option>Photo Editing & Image Work</option>
+                            <option>CorelDRAW Work</option>
+                            <option>All Types of Freelance Work</option>
+                        </select>
+                    </div>
+
+                    <div class="query-form-group">
+                        <label for="queryEmail">Email (Optional)</label>
+                        <input type="email" id="queryEmail" placeholder="Enter your email">
+                    </div>
+
+                    <div class="query-form-group full-width">
+                        <label for="queryMessage">Your Query / Requirement *</label>
+                        <textarea id="queryMessage" required placeholder="Write your requirement here..."></textarea>
+                    </div>
+                </div>
+
+                <button type="submit" class="whatsapp-query-btn">Send Query on WhatsApp</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+<section id="contact">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div class="section-tag">
+                CONTACT US
+            </div>
+
+            <h2>
+                Let's Work Together
+            </h2>
+
+            <p>
+                Have a project, requirement or question?
+                Contact us directly.
+            </p>
+
+        </div>
+
+
+        <div class="contact-grid">
+
+
+            <div class="contact-card">
+
+                <h3>
+                    Get In Touch
+                </h3>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        📱
+                    </div>
+
+                    <div>
+
+                        <div class="contact-label">
+                            WhatsApp / Phone
+                        </div>
+
+                        <a href="https://wa.me/917082382736"
+                           target="_blank"
+                           class="contact-value">
+                            +91 70823 82736
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        ✉
+                    </div>
+
+                    <div>
+
+                        <div class="contact-label">
+                            Email
+                        </div>
+
+                        <a href="mailto:rsdigitalsupport@gmail.com"
+                           class="contact-value">
+                            rsdigitalsupport@gmail.com
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        📍
+                    </div>
+
+                    <div>
+
+                        <div class="contact-label">
+                            Service Area
+                        </div>
+
+                        <div class="contact-value"
+                             style="color:#14213d;">
+                            India (Work from Anywhere)
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="contact-card">
+
+                <h3>
+                    Start Your Project
+                </h3>
+
+                <p class="contact-description">
+                    Send us your requirements on WhatsApp.
+                    We will discuss your project and provide
+                    the appropriate solution.
+                </p>
+
+                <a href="https://wa.me/917082382736"
+                   target="_blank"
+                   class="btn btn-orange">
+                    💬 Message on WhatsApp
+                </a>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer>
+
+    <div class="container">
+
+        <div class="footer-brand">
+
+            <img src="./All%20image/logo.png"
+                 alt="RS Digital Solutions">
+
+            <div class="footer-brand-name">
+                RS <span>Digital Solutions</span>
+            </div>
+
+        </div>
+
+        <div class="footer-tagline">
+            Your Vision. Our Digital Solution.
+        </div>
+
+        <div class="copyright">
+            © 2026 RS Digital Solutions. All Rights Reserved.
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- =========================================================
+     FLOATING WHATSAPP
+========================================================= -->
+
+<a href="https://wa.me/917082382736"
+   target="_blank"
+   class="floating-whatsapp"
+   aria-label="Contact on WhatsApp">
+    ☎
+</a>
+
+
+<!-- =========================================================
+     JAVASCRIPT
+========================================================= -->
+
+<script>
+
+    function toggleMenu() {
+
+        const menu = document.getElementById("navMenu");
+
+        menu.classList.toggle("active");
+
+    }
+
+
+    document.querySelectorAll(".nav-menu a").forEach(function(link) {
+
+        link.addEventListener("click", function() {
+
+            document.getElementById("navMenu")
+                .classList.remove("active");
+
+        });
+
+    });
+
+</script>
+
+
+
+    <script>
+        (function () {
+            const slides = document.querySelectorAll(".hero-slide");
+            const dots = document.querySelectorAll(".hero-slider-dots span");
+            if (!slides.length) return;
+
+            let current = 0;
+
+            setInterval(function () {
+                slides[current].classList.remove("active");
+                if (dots[current]) dots[current].classList.remove("active");
+
+                current = (current + 1) % slides.length;
+
+                slides[current].classList.add("active");
+                if (dots[current]) dots[current].classList.add("active");
+            }, 2500);
+        })();
+    </script>
+
+
+<script>
+(function () {
+    const form = document.getElementById("whatsappQueryForm");
+    if (!form) return;
+
+    form.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        const name = document.getElementById("queryName").value.trim();
+        const mobile = document.getElementById("queryMobile").value.trim();
+        const service = document.getElementById("queryService").value.trim();
+        const email = document.getElementById("queryEmail").value.trim();
+        const message = document.getElementById("queryMessage").value.trim();
+
+        const whatsappNumber = "917082382736";
+
+        const whatsappMessage =
+            "New Query - RS Digital Solutions\n\n" +
+            "Name: " + name + "\n" +
+            "Mobile: " + mobile + "\n" +
+            "Service: " + service + "\n" +
+            "Email: " + (email || "Not provided") + "\n\n" +
+            "Query / Requirement:\n" + message;
+
+        window.open(
+            "https://wa.me/" + whatsappNumber + "?text=" + encodeURIComponent(whatsappMessage),
+            "_blank"
+        );
+    });
+})();
+</script>
+
+</body>
+</html>
